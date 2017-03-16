@@ -8,7 +8,6 @@ struct
 void perkalian()
 {
 	printf("\n\n\tPERKALIAN BILANGAN KOMPLEKS \t\n");
-
 	int hasil1 = (bil.a * bil.c) - (bil.b * bil.d);
 	int hasil2 = (bil.a *bil.d) + (bil.b * bil.c);
 	printf(
@@ -18,18 +17,11 @@ void perkalian()
 void pembagian()
 {
 	printf("\n\n\tPEMBAGIAN BILANGAN KOMPLEKS \t\n");
-
 	int hasil1 = ((bil.a*bil.c)+(bil.b*bil.d));
 	int hasil2 = (bil.a*bil.a)+(bil.b*bil.b);
 	int hasil3 = ((bil.b*bil.c)-(bil.a*bil.d));
 	int hasil4 = (bil.c*bil.c)+(bil.d*bil.d);
 	
-
-
-
-
-
-
 	printf("\nHasil pembagian dari (%d + %di)/(%d + %di) =[(%d.%d + %d.%d)/(%d.%d + %d.%d)]+[(%d.%d - %d.%d)/(%d.%d + %d.%d)i adalah (%d/%d)+(%d/%d)i",
 	bil.a,bil.b,bil.c,bil.d,bil.a,bil.c,bil.b,bil.d,bil.a,bil.a,bil.b,bil.b,bil.b,bil.c,bil.a,bil.d,bil.c,bil.c,bil.d,bil.d,hasil1,hasil2,hasil3,hasil4);
 }
@@ -57,14 +49,6 @@ void pengurangan()
 }
 int main()
 {
-	
-
-
-
-
-
-
-
 	char jawab;
 	do
 	{
@@ -102,9 +86,6 @@ int main()
 		printf("\n Apakah anda ingin kembali melakukan perhitungan ? [y/t] ");
 		scanf("%s",&jawab);
 	}
-	
-
-
 	while ((jawab=='Y' || jawab=='y'));
 }
 
