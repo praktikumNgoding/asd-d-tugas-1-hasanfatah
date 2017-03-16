@@ -170,5 +170,4 @@ int main() {
 		scanf("%s",&jawab);
 	}
 	while ((jawab=='Y' || jawab=='y'));
-	printf("\n\n\t\t\t\tTERIMA KASIH");
 }
