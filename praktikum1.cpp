@@ -119,23 +119,15 @@ int main() {
 	char jawab;
 	do {
 	int a[21],b[21],c,d,e,f;
-//	cout<<"Masukkan Polinom Pertama, Tekan Sembarang Tombol Unuk Melanjutkan"<<endl;
-//	getch();
 	cout<<"\nMasukkan Derajat Tertinggi Polinom Pertama: ";
 	cin>>c;
-//	cout<<"\nMasukkan Koofisien x Mulai Dari x Pangkat 0, Tekan Sembarang Tombol Untuk Melanjutkan"<<endl;
-//	getch();
 	for(d=0;d<=c;d++) {
 		cout<<"\nKoofisien x Pangkat "<<d<<" : ";
 		cin>>a[d];
 		cout<<endl;
 	}
-//	cout<<"Masukkan Polinom Kedua, Tekan Sembarang Tombol Untuk Melanjutkan"<<endl;
-//	getch();
 	cout<<"\nMasukkan Derajat Tertinggi Polinom Kedua: ";
 	cin>>e;
-//	cout<<"\nMasukkan Koofisien x Mulai dari x Pangkat 0, Tekan Sembarang Tombol Untuk Melanjutkan"<<endl;
-//	getch();
 	for(d=0;d<=e;d++) {
 		cout<<"\nKoofisien x Pangkat "<<d<<" : ";
 		cin>>b[d];
